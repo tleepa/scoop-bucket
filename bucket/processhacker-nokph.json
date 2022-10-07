@@ -27,8 +27,8 @@
     ],
     "pre_install": [
         "# Create settings file stub",
-        "if (!(Test-Path \"$dir\\ProcessHacker.exe.settings.xml\")) {",
-        "    New-Item -Type file \"$dir\\ProcessHacker.exe.settings.xml\" | Out-Null",
+        "if (!(Test-Path \"$persist_dir\\ProcessHacker.exe.settings.xml\")) {",
+        "    New-Item \"$dir\\ProcessHacker.exe.settings.xml\" | Out-Null",
         "}"
     ],
     "persist": "ProcessHacker.exe.settings.xml",
