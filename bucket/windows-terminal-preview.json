@@ -57,6 +57,6 @@
         "regex": "(?s)Microsoft.WindowsTerminalPreview_Win10_([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/dl.7z"
+        "url": "https://github.com/microsoft/terminal/releases/download/v$($version.Split('.')[0..2] -join '.' -replace '.$')/Microsoft.WindowsTerminalPreview_Win10_$version_8wekyb3d8bbwe.msixbundle#/dl.7z"
     }
 }
