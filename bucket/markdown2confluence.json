@@ -1,16 +1,16 @@
 {
-    "version": "3.4.2",
+    "version": "3.4.6",
     "description": "Push markdown files to Confluence Cloud.",
     "homepage": "https://github.com/justmiles/go-markdown2confluence",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justmiles/go-markdown2confluence/releases/download/v3.4.2/go-markdown2confluence_3.4.2_windows_x86_64.tar.gz",
-            "hash": "7f58dc8367c73b1391fcb4032e159ae25abfb8302a450241955380849a10b291"
+            "url": "https://github.com/justmiles/go-markdown2confluence/releases/download/v3.4.6/go-markdown2confluence_3.4.6_windows_x86_64.tar.gz",
+            "hash": "09766788566b4db471a591eb61e45c4e347514858fcf0cd068b4051c63501a27"
         },
         "32bit": {
-            "url": "https://github.com/justmiles/go-markdown2confluence/releases/download/v3.4.2/go-markdown2confluence_3.4.2_windows_i386.tar.gz",
-            "hash": "217ff81fe9055ebe4e5b7361cbc172acc30000d28c60d47be0ffce1467aad01b"
+            "url": "https://github.com/justmiles/go-markdown2confluence/releases/download/v3.4.6/go-markdown2confluence_3.4.6_windows_i386.tar.gz",
+            "hash": "49a6cd46b4a90c0dccaf5988465810baaa833d7dc4fc158feaefda8459a995c9"
         }
     },
     "bin": "markdown2confluence.exe",
